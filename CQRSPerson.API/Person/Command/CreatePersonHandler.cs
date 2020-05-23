@@ -1,14 +1,12 @@
 ﻿using AutoMapper;
-using FluentValidation;
 using CQRSPerson.Domain.Constants;
 using CQRSPerson.Domain.Dtos;
 using CQRSPerson.Domain.Logging;
 using CQRSPerson.Domain.Repositories;
 using CQRSPerson.Domain.Responses;
+using FluentValidation;
 using MediatR;
-using Microsoft.VisualBasic;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading;

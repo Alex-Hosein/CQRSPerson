@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Net;
-using System.Threading.Tasks;
-using CQRSPerson.Domain.Errors;
+﻿using CQRSPerson.Domain.Errors;
 using CQRSPerson.Domain.Logging;
 using CQRSPerson.Domain.Responses;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.VisualBasic;
+using System;
+using System.Collections.Generic;
+using System.Net;
 
 namespace CQRSPerson.API.Controllers
 {

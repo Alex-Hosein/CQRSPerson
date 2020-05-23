@@ -1,5 +1,5 @@
-﻿using FluentValidation;
-using CQRSPerson.Domain.Constants;
+﻿using CQRSPerson.Domain.Constants;
+using FluentValidation;
 
 namespace CQRSPerson.API.Person.Command
 {

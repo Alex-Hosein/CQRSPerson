@@ -1,7 +1,7 @@
-﻿using FluentValidation.Results;
-using CQRSPerson.Domain.Errors;
+﻿using CQRSPerson.Domain.Errors;
 using CQRSPerson.Domain.Logging;
 using CQRSPerson.Domain.Responses;
+using FluentValidation.Results;
 using System;
 using System.Collections.Generic;
 using System.Linq;

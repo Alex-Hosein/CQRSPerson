@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CQRSPerson.Domain.Constants
+﻿namespace CQRSPerson.Domain.Constants
 {
     public static class InformationalMessages
     {

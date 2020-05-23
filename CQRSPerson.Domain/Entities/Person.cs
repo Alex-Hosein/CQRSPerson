@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace CQRSPerson.Domain.Entities
+﻿namespace CQRSPerson.Domain.Entities
 {
     public partial class Person
     {

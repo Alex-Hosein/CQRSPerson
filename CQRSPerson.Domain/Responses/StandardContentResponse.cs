@@ -1,10 +1,7 @@
 ﻿using CQRSPerson.Domain.Errors;
 using Newtonsoft.Json;
-using System;
 using System.Collections.Generic;
 using System.Net;
-using System.Text;
-using System.Text.Json.Serialization;
 
 namespace CQRSPerson.Domain.Responses
 {

@@ -1,12 +1,10 @@
-﻿using FluentAssertions;
-using CQRSPerson.Domain.Entities;
+﻿using CQRSPerson.Domain.Entities;
 using CQRSPerson.Domain.Repositories;
 using CQRSPerson.TestData;
+using FluentAssertions;
 using Moq;
 using NUnit.Framework;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace CQRSPerson.Infrastructure.Tests.Repositories.PersonQueryRepository

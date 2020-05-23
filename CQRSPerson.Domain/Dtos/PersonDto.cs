@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CQRSPerson.Domain.Dtos
+﻿namespace CQRSPerson.Domain.Dtos
 {
     public class PersonDto
     {

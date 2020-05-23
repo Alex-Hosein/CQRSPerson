@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using AutoMapper;
-using CQRSPerson.API.Person.Command;
+﻿using CQRSPerson.API.Person.Command;
 using CQRSPerson.API.Person.GetPersons;
 using CQRSPerson.Domain.Constants;
 using CQRSPerson.Domain.Dtos;
-using CQRSPerson.Domain.Entities;
 using CQRSPerson.Domain.Logging;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace CQRSPerson.API.Controllers
 {

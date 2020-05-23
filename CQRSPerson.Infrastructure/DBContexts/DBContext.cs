@@ -1,8 +1,6 @@
-﻿using System;
-using CQRSPerson.Domain.Entities;
+﻿using CQRSPerson.Domain.Entities;
 using CQRSPerson.Domain.Options;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.Extensions.Options;
 
 namespace CQRSPerson.Infrastructure

@@ -1,8 +1,5 @@
 ﻿using CQRSPerson.Domain.Entities;
 using CQRSPerson.Domain.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace CQRSPerson.Infrastructure.Repositories

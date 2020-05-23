@@ -1,17 +1,12 @@
-﻿using AutoMapper;
-using FluentAssertions;
-using CQRSPerson.API.Person.GetPersons;
+﻿using CQRSPerson.API.Person.GetPersons;
 using CQRSPerson.Domain.Constants;
 using CQRSPerson.Domain.Dtos;
-using CQRSPerson.Domain.Logging;
-using CQRSPerson.Domain.Repositories;
 using CQRSPerson.Domain.Responses;
 using CQRSPerson.TestData;
+using FluentAssertions;
 using NUnit.Framework;
-using System;
 using System.Collections.Generic;
 using System.Net;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 

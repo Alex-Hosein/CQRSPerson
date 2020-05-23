@@ -1,6 +1,4 @@
 using CQRSPerson.Domain.Logging;
-using CQRSPerson.Domain.Responses;
-using Microsoft.AspNetCore.Mvc;
 using Moq;
 using NUnit.Framework;
 using System;

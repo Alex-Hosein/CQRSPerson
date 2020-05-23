@@ -1,6 +1,6 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using CQRSPerson.Domain.Logging;
+using Microsoft.Extensions.Logging;
 using System;
-using CQRSPerson.Domain.Logging;
 
 namespace CQRSPerson.Infrastructure.Logging
 {

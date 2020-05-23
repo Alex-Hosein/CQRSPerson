@@ -6,14 +6,10 @@ using CQRSPerson.Domain.Repositories;
 using CQRSPerson.Infrastructure;
 using CQRSPerson.Infrastructure.Logging;
 using CQRSPerson.Infrastructure.Repositories;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using NUnit.Framework;
 using NUnit.Framework.Internal;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CQRSPerson.TestData
 {

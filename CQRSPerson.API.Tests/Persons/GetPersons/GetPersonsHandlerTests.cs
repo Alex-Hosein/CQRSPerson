@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using FluentAssertions;
 using CQRSPerson.API.Person.GetPersons;
 using CQRSPerson.Domain.Constants;
 using CQRSPerson.Domain.Dtos;
@@ -7,14 +6,12 @@ using CQRSPerson.Domain.Errors;
 using CQRSPerson.Domain.Logging;
 using CQRSPerson.Domain.Repositories;
 using CQRSPerson.TestData;
-using Microsoft.VisualBasic;
+using FluentAssertions;
 using Moq;
-using Newtonsoft.Json.Bson;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Net;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace CQRSPerson.API.Tests.Persons.GetPersons
