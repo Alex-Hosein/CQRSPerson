@@ -1,0 +1,18 @@
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst.Domain\bin\Debug\netcoreapp3.1\HealthCatalyst.Domain.deps.json
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst.Domain\bin\Debug\netcoreapp3.1\HealthCatalyst.Domain.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst.Domain\bin\Debug\netcoreapp3.1\HealthCatalyst.Domain.pdb
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst.Domain\obj\Debug\netcoreapp3.1\HealthCatalyst.Domain.csprojAssemblyReference.cache
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst.Domain\obj\Debug\netcoreapp3.1\HealthCatalyst.Domain.AssemblyInfoInputs.cache
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst.Domain\obj\Debug\netcoreapp3.1\HealthCatalyst.Domain.AssemblyInfo.cs
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst.Domain\obj\Debug\netcoreapp3.1\HealthCatalyst.Domain.csproj.CoreCompileInputs.cache
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst.Domain\obj\Debug\netcoreapp3.1\HealthCatalyst.Domain.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst.Domain\obj\Debug\netcoreapp3.1\HealthCatalyst.Domain.pdb
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst.Domain\bin\Debug\netcoreapp3.1\HealthCatalyst.Domain.deps.json
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst.Domain\bin\Debug\netcoreapp3.1\HealthCatalyst.Domain.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst.Domain\bin\Debug\netcoreapp3.1\HealthCatalyst.Domain.pdb
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst.Domain\obj\Debug\netcoreapp3.1\HealthCatalyst.Domain.csprojAssemblyReference.cache
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst.Domain\obj\Debug\netcoreapp3.1\HealthCatalyst.Domain.AssemblyInfoInputs.cache
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst.Domain\obj\Debug\netcoreapp3.1\HealthCatalyst.Domain.AssemblyInfo.cs
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst.Domain\obj\Debug\netcoreapp3.1\HealthCatalyst.Domain.csproj.CoreCompileInputs.cache
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst.Domain\obj\Debug\netcoreapp3.1\HealthCatalyst.Domain.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst.Domain\obj\Debug\netcoreapp3.1\HealthCatalyst.Domain.pdb

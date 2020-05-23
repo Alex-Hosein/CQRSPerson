@@ -1,0 +1,8 @@
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Domain\bin\Debug\netcoreapp3.1\CQRSPerson.Domain.deps.json
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Domain\bin\Debug\netcoreapp3.1\CQRSPerson.Domain.dll
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Domain\bin\Debug\netcoreapp3.1\CQRSPerson.Domain.pdb
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Domain\obj\Debug\netcoreapp3.1\CQRSPerson.Domain.AssemblyInfoInputs.cache
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Domain\obj\Debug\netcoreapp3.1\CQRSPerson.Domain.AssemblyInfo.cs
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Domain\obj\Debug\netcoreapp3.1\CQRSPerson.Domain.csproj.CoreCompileInputs.cache
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Domain\obj\Debug\netcoreapp3.1\CQRSPerson.Domain.dll
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Domain\obj\Debug\netcoreapp3.1\CQRSPerson.Domain.pdb

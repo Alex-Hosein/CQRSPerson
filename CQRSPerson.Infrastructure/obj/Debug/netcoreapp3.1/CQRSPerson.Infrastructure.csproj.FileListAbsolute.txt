@@ -1,0 +1,15 @@
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Infrastructure\bin\Debug\netcoreapp3.1\CQRSPerson.Infrastructure.deps.json
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Infrastructure\bin\Debug\netcoreapp3.1\CQRSPerson.Infrastructure.runtimeconfig.json
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Infrastructure\bin\Debug\netcoreapp3.1\CQRSPerson.Infrastructure.runtimeconfig.dev.json
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Infrastructure\bin\Debug\netcoreapp3.1\CQRSPerson.Infrastructure.dll
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Infrastructure\bin\Debug\netcoreapp3.1\CQRSPerson.Infrastructure.pdb
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Infrastructure\bin\Debug\netcoreapp3.1\CQRSPerson.Domain.dll
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Infrastructure\bin\Debug\netcoreapp3.1\CQRSPerson.Domain.pdb
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Infrastructure\obj\Debug\netcoreapp3.1\CQRSPerson.Infrastructure.csprojAssemblyReference.cache
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Infrastructure\obj\Debug\netcoreapp3.1\CQRSPerson.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Infrastructure\obj\Debug\netcoreapp3.1\CQRSPerson.Infrastructure.AssemblyInfo.cs
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Infrastructure\obj\Debug\netcoreapp3.1\CQRSPerson.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Infrastructure\obj\Debug\netcoreapp3.1\CQRSPerson.Infrastructure.csproj.CopyComplete
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Infrastructure\obj\Debug\netcoreapp3.1\CQRSPerson.Infrastructure.dll
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Infrastructure\obj\Debug\netcoreapp3.1\CQRSPerson.Infrastructure.pdb
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Infrastructure\obj\Debug\netcoreapp3.1\CQRSPerson.Infrastructure.genruntimeconfig.cache

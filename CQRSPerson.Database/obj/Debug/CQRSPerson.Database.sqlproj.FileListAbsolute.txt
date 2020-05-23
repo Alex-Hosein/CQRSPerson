@@ -1,0 +1,14 @@
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\CQRSPerson.Database\bin\Debug\CQRSPerson.Database.dacpac
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\CQRSPerson.Database\bin\Debug\CQRSPerson.Database.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\CQRSPerson.Database\bin\Debug\CQRSPerson.Database.pdb
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\CQRSPerson.Database\obj\Debug\Model.xml
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\CQRSPerson.Database\obj\Debug\refactor.xml
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\CQRSPerson.Database\obj\Debug\postdeploy.sql
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\CQRSPerson.Database\obj\Debug\predeploy.sql
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\CQRSPerson.Database\obj\Debug\CQRSPerson.Database.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\CQRSPerson.Database\obj\Debug\CQRSPerson.Database.pdb
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Database\bin\Debug\CQRSPerson.Database.dacpac
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Database\bin\Debug\CQRSPerson.Database.dll
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Database\bin\Debug\CQRSPerson.Database.pdb
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Database\obj\Debug\CQRSPerson.Database.dll
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Database\obj\Debug\CQRSPerson.Database.pdb

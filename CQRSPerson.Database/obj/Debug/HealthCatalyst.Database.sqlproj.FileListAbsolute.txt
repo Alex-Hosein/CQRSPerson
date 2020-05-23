@@ -1,0 +1,12 @@
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst.Database\bin\Debug\HealthCatalyst.Database.dacpac
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst.Database\bin\Debug\HealthCatalyst.Database.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst.Database\bin\Debug\HealthCatalyst.Database.pdb
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst.Database\obj\Debug\HealthCatalyst.Database.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst.Database\obj\Debug\HealthCatalyst.Database.pdb
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst.Database\obj\Debug\HealthCatalyst.Database.sqlprojAssemblyReference.cache
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst.Database\bin\Debug\HealthCatalyst.Database.dacpac
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst.Database\bin\Debug\HealthCatalyst.Database.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst.Database\bin\Debug\HealthCatalyst.Database.pdb
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst.Database\obj\Debug\HealthCatalyst.Database.sqlprojAssemblyReference.cache
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst.Database\obj\Debug\HealthCatalyst.Database.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst.Database\obj\Debug\HealthCatalyst.Database.pdb

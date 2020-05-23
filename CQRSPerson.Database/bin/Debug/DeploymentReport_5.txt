@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Image]
+       [dbo].[Person]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[Image] (Table)
+       [dbo].[Person] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_Person_Images] (Foreign Key)
+     Create
+       [dbo].[FK_Person_Images] (Foreign Key)

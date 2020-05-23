@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lHXhQKOglRwGq4fbE8jMsYp85zQmOOZZ8hLxdDsZKaavvaOfA0xwquNCeRT/wXWn6+9JQN7gtGVH85u08IPkTQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alexa\\source\\repos\\CQRSPerson\\CQRSPerson.Domain\\CQRSPerson.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexa\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
