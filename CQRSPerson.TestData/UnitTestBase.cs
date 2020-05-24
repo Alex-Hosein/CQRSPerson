@@ -1,3 +1,5 @@
+using AutoMapper;
+using CQRSPerson.API.Map;
 using CQRSPerson.Domain.Logging;
 using Moq;
 using NUnit.Framework;
@@ -9,9 +11,11 @@ namespace CQRSPerson.TestData
     public abstract class UnitTestBase
     {
         public Exception Exception { get; set; }
+        public IMapper Mapper { get; set; }
         public UnitTestBase()
         {
             Exception = new Exception("This is only a test");
+            SetupMapper();
         }
         public static Mock<IApplicationLogger<T>> SetupLoggerMock<T>()
         {
@@ -21,5 +25,15 @@ namespace CQRSPerson.TestData
             loggerMock.Setup(x => x.LogError(It.IsAny<Exception>(), It.IsAny<string>(), It.IsAny<object[]>())).Verifiable();
             return loggerMock;
         }
+
+        private void SetupMapper()
+        {
+            var mappingConfig = new MapperConfiguration(config =>
+            {
+                config.AddProfile(new MappingProfile());
+            });
+            Mapper = mappingConfig.CreateMapper();
+        }
+
     }
 }
