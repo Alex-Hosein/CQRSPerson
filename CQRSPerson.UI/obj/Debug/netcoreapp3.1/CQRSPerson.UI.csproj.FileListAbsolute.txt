@@ -101,3 +101,4 @@ C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.UI\obj\Debug\netcoreapp3.1\sta
 C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.UI\obj\Debug\netcoreapp3.1\CQRSPerson.UI.dll
 C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.UI\obj\Debug\netcoreapp3.1\CQRSPerson.UI.pdb
 C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.UI\obj\Debug\netcoreapp3.1\CQRSPerson.UI.genruntimeconfig.cache
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.UI\obj\Debug\netcoreapp3.1\CQRSPerson.UI.csprojAssemblyReference.cache
