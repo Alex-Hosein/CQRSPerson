@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 namespace CQRSPerson.API.Controllers
 {
     [Route("api/[controller]")]
+    [ApiController]
     public class PersonController : BaseController<PersonController>
     {
         private readonly IMediator _mediator;

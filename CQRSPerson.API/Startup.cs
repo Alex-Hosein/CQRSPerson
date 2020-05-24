@@ -1,6 +1,7 @@
 using AutoMapper;
 using CQRSPerson.API.Controllers;
 using CQRSPerson.API.Map;
+using CQRSPerson.API.Middleware;
 using CQRSPerson.API.Person.Command;
 using CQRSPerson.API.Person.GetPersons;
 using CQRSPerson.Domain.Logging;
@@ -57,7 +58,7 @@ namespace CQRSPerson.API
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Health Catalyst API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Person API", Version = "v1" });
             });
 
             services.AddAutoMapper(typeof(MappingProfile));
@@ -73,10 +74,11 @@ namespace CQRSPerson.API
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseMiddleware<CorsConfiguration>();
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Person V1");
             });
 
             app.UseHttpsRedirection();
