@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSPerson.UI", "CQRSPerson\CQRSPerson.UI.csproj", "{2C219248-84AE-492C-90AC-B3D2CF3289C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSPerson.UI", "CQRSPerson.UI\CQRSPerson.UI.csproj", "{2C219248-84AE-492C-90AC-B3D2CF3289C2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSPerson.API", "CQRSPerson.API\CQRSPerson.API.csproj", "{34C21F42-6DBB-4129-BC86-3DEAA5556B5F}"
 EndProject
