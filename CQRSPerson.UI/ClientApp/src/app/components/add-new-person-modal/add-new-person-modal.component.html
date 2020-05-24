@@ -1,0 +1,40 @@
+<form [formGroup]="addPersonForm" (ngSubmit)="onSubmit(addPersonForm.value)">
+    <div class="form-row">
+        <div class="form-group col-12">
+            <label for="firstName" class="form-control-label font-weight-bold">First Name</label>
+            <input id="firstName" type="text" formControlName="firstName" class="form-control" minlength="1"/> 
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-12">
+            <label for="lastName" class="form-control-label font-weight-bold">Last Name</label>
+            <input id="lastName" type="text" formControlName="lastName" class="form-control" minlength="1"/> 
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-12">
+            <label for="age" class="form-control-label font-weight-bold">Age</label>
+            <input id="age" type="number" formControlName="age" class="form-control" minlength="1"/> 
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-12">
+            <label for="interests" class="form-control-label font-weight-bold">Interests</label>
+            <input id="interests" type="text" formControlName="interests" class="form-control" minlength="1"/> 
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-12">
+            <label for="image" class="form-control-label font-weight-bold">Image</label>
+            <input id="image" type="text" formControlName="image" class="form-control" minlength="1" placeholder="http://yourDomain.com/my.jpg"/> 
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="col-auto">
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+        <div class="col-auto">
+            <button class="btn btn-secondary" type="button" (click)="cancel()">Cancel</button>
+        </div>
+    </div>
+</form>

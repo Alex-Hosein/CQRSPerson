@@ -1,0 +1,104 @@
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\HealthCatalyst.UI.exe
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\HealthCatalyst.UI.deps.json
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\HealthCatalyst.UI.runtimeconfig.json
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\HealthCatalyst.UI.runtimeconfig.dev.json
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\HealthCatalyst.UI.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\HealthCatalyst.UI.pdb
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\HealthCatalyst.UI.Views.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\HealthCatalyst.UI.Views.pdb
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.NodeServices.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SpaServices.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SpaServices.Extensions.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.csprojAssemblyReference.cache
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.AssemblyInfoInputs.cache
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.AssemblyInfo.cs
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.csproj.CoreCompileInputs.cache
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.RazorAssemblyInfo.cache
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.RazorAssemblyInfo.cs
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.TagHelpers.input.cache
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.TagHelpers.output.cache
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.RazorCoreGenerate.cache
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.RazorTargetAssemblyInfo.cache
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.RazorTargetAssemblyInfo.cs
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.Views.pdb
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.csproj.CopyComplete
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\obj\Debug\netcoreapp3.1\staticwebassets\HealthCatalyst.UI.StaticWebAssets.Manifest.cache
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\obj\Debug\netcoreapp3.1\staticwebassets\HealthCatalyst.UI.StaticWebAssets.xml
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.dll
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.pdb
+C:\Users\alexa\source\repos\HealthCatalyst\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.genruntimeconfig.cache
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\HealthCatalyst.UI.exe
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\HealthCatalyst.UI.deps.json
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\HealthCatalyst.UI.runtimeconfig.json
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\HealthCatalyst.UI.runtimeconfig.dev.json
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\HealthCatalyst.UI.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\HealthCatalyst.UI.pdb
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\HealthCatalyst.UI.Views.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\HealthCatalyst.UI.Views.pdb
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.NodeServices.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SpaServices.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SpaServices.Extensions.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.csprojAssemblyReference.cache
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.AssemblyInfoInputs.cache
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.AssemblyInfo.cs
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.csproj.CoreCompileInputs.cache
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.RazorAssemblyInfo.cache
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.RazorAssemblyInfo.cs
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.TagHelpers.input.cache
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.TagHelpers.output.cache
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.RazorCoreGenerate.cache
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.RazorTargetAssemblyInfo.cache
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.RazorTargetAssemblyInfo.cs
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.Views.pdb
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.csproj.CopyComplete
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\obj\Debug\netcoreapp3.1\staticwebassets\HealthCatalyst.UI.StaticWebAssets.Manifest.cache
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\obj\Debug\netcoreapp3.1\staticwebassets\HealthCatalyst.UI.StaticWebAssets.xml
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.dll
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.pdb
+C:\Users\alexa\source\repos\HealthCatalyst - Copy\HealthCatalyst\obj\Debug\netcoreapp3.1\HealthCatalyst.UI.genruntimeconfig.cache

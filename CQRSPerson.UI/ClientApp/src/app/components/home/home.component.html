@@ -1,0 +1,21 @@
+<h1>CQRS Project</h1>
+<p>Small Front-end application to go along with the PersonAPI</p>
+
+<div class="row mb-1">
+    <div class="col-auto mr-auto form-group">
+        <label for=search class="form-control-label font-weight-bold">Search</label>
+        <input id=search type="text" class="form-control" [(ngModel)]="search" name="search" (ngModelChange)="onChange($event)">  
+
+        
+        <input type="checkbox" id="loadingTimes" [(ngModel)]="isLoading" name="isLoading" (change)="onChecked($event)">
+        <label for="loadingTimes">Simulate 7 Second Loading Times</label>
+    </div>
+
+    <div class="col-auto mt-auto mb-auto">
+        <button class="btn btn-primary" (click)="openDialog()">Add New Person</button>
+    </div>
+</div>
+
+<div class="row">
+    <app-datagrid></app-datagrid>
+</div>

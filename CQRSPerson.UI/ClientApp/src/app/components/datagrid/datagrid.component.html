@@ -1,0 +1,13 @@
+<dx-data-grid (onInitialized)="saveGridInstance($event)" id="gridContainer" [dataSource]="Persons" [showBorders]="true">
+    <dxo-load-panel [enabled]="true"></dxo-load-panel>
+    <dxi-column dataField="image" [width]="100" [allowFiltering]="false"
+        [allowSorting]="false" cellTemplate="cellTemplate"></dxi-column>
+    <dxi-column dataField="firstName"></dxi-column>
+    <dxi-column dataField="lastName"></dxi-column>
+    <dxi-column dataField="age"></dxi-column>
+    <dxi-column dataField="interests" dataType="date"></dxi-column>
+
+    <div *dxTemplate="let data of 'cellTemplate'">
+        <img style="max-height:100px; max-width: 100px;" [src]="data.value"/>
+    </div>
+</dx-data-grid>
