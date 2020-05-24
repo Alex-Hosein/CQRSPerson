@@ -13,7 +13,3 @@ C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Database\bin\Debug\CQRSPerson.
 C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Database\obj\Debug\CQRSPerson.Database.sqlprojAssemblyReference.cache
 C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Database\obj\Debug\CQRSPerson.Database.dll
 C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Database\obj\Debug\CQRSPerson.Database.pdb
-C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Database\obj\Debug\Model.xml
-C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Database\obj\Debug\refactor.xml
-C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Database\obj\Debug\postdeploy.sql
-C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Database\obj\Debug\predeploy.sql

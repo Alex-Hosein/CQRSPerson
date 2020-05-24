@@ -27,14 +27,20 @@ namespace CQRSPerson.Infrastructure.Tests.Repositories.PersonCommandRepository.I
 
             var result = await PersonCommandRepository.InsertAsync(_person);
             var personResult = await DBContext.Person.Where(x => x.PersonId == result).FirstOrDefaultAsync();
-
-            result.Should().BeGreaterThan(0);
-            personResult.PersonId.Should().Be(result);
-            personResult.FirstName.Should().Be(_person.FirstName);
-            personResult.LastName.Should().Be(_person.LastName);
-            personResult.Age.Should().Be(_person.Age);
-            personResult.Interests.Should().Be(_person.Interests);
-            personResult.Image.Should().Be(_person.Image);
+            try
+            {
+                result.Should().BeGreaterThan(0);
+                personResult.PersonId.Should().Be(result);
+                personResult.FirstName.Should().Be(_person.FirstName);
+                personResult.LastName.Should().Be(_person.LastName);
+                personResult.Age.Should().Be(_person.Age);
+                personResult.Interests.Should().Be(_person.Interests);
+                personResult.Image.Should().Be(_person.Image);
+            }
+            finally{
+                DBContext.Person.Remove(personResult);
+                DBContext.SaveChanges();
+            }
         }
     }
 }

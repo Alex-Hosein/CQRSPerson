@@ -80,7 +80,6 @@ C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.UI\bin\Debug\netcoreapp3.1\Mic
 C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.UI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.UI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.UI\obj\Debug\netcoreapp3.1\CQRSPerson.UI.csprojAssemblyReference.cache
 C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.UI\obj\Debug\netcoreapp3.1\CQRSPerson.UI.AssemblyInfoInputs.cache
 C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.UI\obj\Debug\netcoreapp3.1\CQRSPerson.UI.AssemblyInfo.cs
 C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.UI\obj\Debug\netcoreapp3.1\CQRSPerson.UI.csproj.CoreCompileInputs.cache

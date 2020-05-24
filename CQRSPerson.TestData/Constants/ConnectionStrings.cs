@@ -2,6 +2,6 @@
 {
     public static class ConnectionStrings
     {
-        public const string CQRSPersonDatabaseConnectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=CQRSPersonDatabase;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        public const string CQRSPersonDatabaseConnectionString = "Server=tcp:alex-hosein-server.database.windows.net,1433;Initial Catalog=CQRSDatabase;Persist Security Info=False;User ID=f9QRoym8VZ75SPMXWyTn;Password=brebjNr2ZvLYQwkuEnSF;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
     }
 }

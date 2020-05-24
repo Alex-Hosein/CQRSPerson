@@ -36,18 +36,26 @@ namespace CQRSPerson.API.Tests.Persons.CreatePerson.Integration
         {
             var response = await CreatePersonHandler.Handle(_createPersonCommand, new CancellationToken());
             var person = await DBContext.Person.Where(x => x.PersonId == response.Content.PersonId).FirstOrDefaultAsync();
-
-            response.Should().NotBeNull();
-            response.Should().BeOfType<StandardContentResponse<CreatePersonDto>>();
-            response.StatusCode.Should().Be(HttpStatusCode.Created);
-            response.InformationalMessage.Should().Be(InformationalMessages.AddPersonSuccessMessage);
-            response.Content.Should().NotBeNull();
-            response.Content.Should().BeOfType<CreatePersonDto>();
-            person.FirstName.Should().BeEquivalentTo(_createPersonCommand.FirstName);
-            person.LastName.Should().BeEquivalentTo(_createPersonCommand.LastName);
-            person.Age.Should().Be(_createPersonCommand.Age);
-            person.Interests.Should().BeEquivalentTo(_createPersonCommand.Interests);
-            person.Image.Should().BeEquivalentTo(_createPersonCommand.Image);
+           
+            try
+            {
+                response.Should().NotBeNull();
+                response.Should().BeOfType<StandardContentResponse<CreatePersonDto>>();
+                response.StatusCode.Should().Be(HttpStatusCode.Created);
+                response.InformationalMessage.Should().Be(InformationalMessages.AddPersonSuccessMessage);
+                response.Content.Should().NotBeNull();
+                response.Content.Should().BeOfType<CreatePersonDto>();
+                person.FirstName.Should().BeEquivalentTo(_createPersonCommand.FirstName);
+                person.LastName.Should().BeEquivalentTo(_createPersonCommand.LastName);
+                person.Age.Should().Be(_createPersonCommand.Age);
+                person.Interests.Should().BeEquivalentTo(_createPersonCommand.Interests);
+                person.Image.Should().BeEquivalentTo(_createPersonCommand.Image);
+            }
+            finally
+            {
+                DBContext.Person.Remove(person);
+                DBContext.SaveChanges();
+            }
         }
 
         [Test]
