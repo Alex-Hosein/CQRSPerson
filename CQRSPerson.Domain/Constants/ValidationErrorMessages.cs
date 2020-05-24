@@ -16,13 +16,13 @@
                     value = "(empty)";
                     break;
                 default:
-                {
-                    if(value.Trim().Length == 0)
                     {
-                        value = "(whitespace)";
+                        if (value.Trim().Length == 0)
+                        {
+                            value = "(whitespace)";
+                        }
+                        break;
                     }
-                    break;
-                }
             }
             return $"Property: {field} ,Value: {value}, Error: {error}.";
         }

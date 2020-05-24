@@ -1,11 +1,13 @@
 ﻿using AutoMapper;
 using CQRSPerson.API.Map;
+using CQRSPerson.API.Person.Command;
 using CQRSPerson.API.Person.GetPersons;
 using CQRSPerson.Domain.Options;
 using CQRSPerson.Domain.Repositories;
 using CQRSPerson.Infrastructure;
 using CQRSPerson.Infrastructure.Logging;
 using CQRSPerson.Infrastructure.Repositories;
+using FluentValidation;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using NUnit.Framework;
@@ -20,7 +22,12 @@ namespace CQRSPerson.TestData
         public IMapper Mapper;
         public DBContext DBContext;
         public IPersonQueryRepository PersonQueryRepository { get; set; }
+        public IPersonCommandRepository PersonCommandRepository { get; set; }
         public ApplicationLogger<GetPersonsHandler> GetPersonsHandlerLogger { get; set; }
+        public ApplicationLogger<CreatePersonHandler> CreatePersonHandlerLogger { get; set; }
+        public IValidator<CreatePersonCommand> CreatePersonValidator { get; set; }
+        public GetPersonsHandler GetPersonsHandler { get; set; }
+        public CreatePersonHandler CreatePersonHandler { get; set; }
 
         public IntegrationTestBase()
         {
@@ -34,6 +41,8 @@ namespace CQRSPerson.TestData
             SetupLoggers();
             SetupMapper();
             SetupRepositories();
+            SetupValidators();
+            SetupHandlers();
         }
 
         public void SetupOptions()
@@ -53,6 +62,7 @@ namespace CQRSPerson.TestData
         private void SetupLoggers()
         {
             GetPersonsHandlerLogger = new ApplicationLogger<GetPersonsHandler>(new Logger<GetPersonsHandler>(new LoggerFactory()));
+            CreatePersonHandlerLogger = new ApplicationLogger<CreatePersonHandler>(new Logger<CreatePersonHandler>(new LoggerFactory()));
         }
         private void SetupMapper()
         {
@@ -66,6 +76,16 @@ namespace CQRSPerson.TestData
         public void SetupRepositories()
         {
             PersonQueryRepository = new PersonQueryRepository(DBContext);
+            PersonCommandRepository = new PersonCommandRepository(DBContext);
+        }
+        public void SetupHandlers()
+        {
+            GetPersonsHandler = new GetPersonsHandler(PersonQueryRepository, Mapper, GetPersonsHandlerLogger);
+            CreatePersonHandler = new CreatePersonHandler(CreatePersonValidator, CreatePersonHandlerLogger, PersonCommandRepository, Mapper);
+        }
+        public void SetupValidators()
+        {
+            CreatePersonValidator = new CreatePersonValidator();
         }
     }
 }

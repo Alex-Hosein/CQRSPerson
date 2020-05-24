@@ -45,7 +45,7 @@ namespace CQRSPerson.API
 
             services.AddDbContext<DBContext>();
 
-            services.AddScoped<IApplicationLogger<PersonController>,ApplicationLogger<PersonController>>();
+            services.AddScoped<IApplicationLogger<PersonController>, ApplicationLogger<PersonController>>();
             services.AddScoped<IApplicationLogger<GetPersonsHandler>, ApplicationLogger<GetPersonsHandler>>();
             services.AddScoped<IApplicationLogger<CreatePersonHandler>, ApplicationLogger<CreatePersonHandler>>();
 
@@ -74,7 +74,8 @@ namespace CQRSPerson.API
             }
 
             app.UseSwagger();
-            app.UseSwaggerUI(c => {
+            app.UseSwaggerUI(c =>
+            {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
             });
 

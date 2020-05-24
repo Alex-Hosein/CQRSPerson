@@ -10,7 +10,7 @@ namespace CQRSPerson.API.Controllers
 {
     public class BaseController<T> : ControllerBase
     {
-        internal ObjectResult  HandleInternalServerError<U>(string informationalMessage,string code, string context, Exception ex, IApplicationLogger<T> logger)
+        internal ObjectResult HandleInternalServerError<U>(string informationalMessage, string code, string context, Exception ex, IApplicationLogger<T> logger)
         {
             logger.LogError(ex, informationalMessage);
             var response = new StandardContentResponse<U>()

@@ -17,7 +17,7 @@ namespace CQRSPerson.API.Controllers
         private readonly IMediator _mediator;
         private readonly IApplicationLogger<PersonController> _logger;
 
-        public PersonController(IMediator mediator, IApplicationLogger<PersonController> logger) 
+        public PersonController(IMediator mediator, IApplicationLogger<PersonController> logger)
         {
             _mediator = mediator;
             _logger = logger;
@@ -33,16 +33,16 @@ namespace CQRSPerson.API.Controllers
                 var result = await _mediator.Send(query);
                 response = new ObjectResult(result) { StatusCode = (int)result.StatusCode };
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 response = HandleInternalServerError<IEnumerable<PersonDto>>(
-                    InformationalMessages.GetAllPersonException,ErrorCodes.GetAllPersonsErrorCode, Contexts.GetAllPersons, ex, _logger);
+                    InformationalMessages.GetAllPersonException, ErrorCodes.GetAllPersonsErrorCode, Contexts.GetAllPersons, ex, _logger);
             }
             return response;
         }
 
         [HttpPost]
-        public async Task<IActionResult> PostAsync(CreatePersonCommand createPersonCommand)
+        public async Task<IActionResult> PostAsync([FromBody] CreatePersonCommand createPersonCommand)
         {
             ObjectResult response;
             try
@@ -53,7 +53,7 @@ namespace CQRSPerson.API.Controllers
             catch (Exception ex)
             {
                 response = HandleInternalServerError<CreatePersonDto>(
-                    InformationalMessages.GetAllPersonException, ErrorCodes.GetAllPersonsErrorCode, Contexts.GetAllPersons, ex, _logger);
+                    InformationalMessages.AddPersonFailure, ErrorCodes.AddPersonErrorCode, Contexts.AddPerson, ex, _logger);
             }
             return response;
         }

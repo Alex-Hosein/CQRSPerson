@@ -1,11 +1,11 @@
 C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.TestData\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.TestData\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.TestData\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.TestData\bin\Debug\netcoreapp3.1\CQRSPerson.API.exe
 C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.TestData\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
 C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.TestData\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
 C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.TestData\bin\Debug\netcoreapp3.1\nunit.engine.dll
 C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.TestData\bin\Debug\netcoreapp3.1\nunit.engine.api.dll
-C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.TestData\bin\Debug\netcoreapp3.1\CQRSPerson.API.exe
 C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.TestData\bin\Debug\netcoreapp3.1\CQRSPerson.TestData.deps.json
 C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.TestData\bin\Debug\netcoreapp3.1\CQRSPerson.TestData.runtimeconfig.json
 C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.TestData\bin\Debug\netcoreapp3.1\CQRSPerson.TestData.runtimeconfig.dev.json

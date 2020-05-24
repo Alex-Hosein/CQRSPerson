@@ -20,7 +20,7 @@ namespace CQRSPerson.API.Person.Command
         private readonly IApplicationLogger<CreatePersonHandler> _logger;
         private readonly IPersonCommandRepository _personCommandRepository;
         private readonly IMapper _mapper;
-    
+
         public CreatePersonHandler(IValidator<CreatePersonCommand> validator, IApplicationLogger<CreatePersonHandler> logger, IPersonCommandRepository personCommandRepository, IMapper mapper)
         {
             _validator = validator;
@@ -45,7 +45,7 @@ namespace CQRSPerson.API.Person.Command
                 {
                     var person = _mapper.Map<Domain.Entities.Person>(createPersonCommand);
                     var personId = await _personCommandRepository.InsertAsync(person);
-                    if(personId > 0)
+                    if (personId > 0)
                     {
                         response.Content = new CreatePersonDto { PersonId = personId };
                         response.InformationalMessage = InformationalMessages.AddPersonSuccessMessage;
@@ -59,11 +59,11 @@ namespace CQRSPerson.API.Person.Command
             }
             catch (Exception ex)
             {
-                response = HandleInternalServerError(ex,_logger, InformationalMessages.AddPersonFailure, ErrorCodes.AddPersonErrorCode, Contexts.AddPerson);
+                response = HandleInternalServerError(ex, _logger, InformationalMessages.AddPersonFailure, ErrorCodes.AddPersonErrorCode, Contexts.AddPerson);
             }
 
             return response;
         }
     }
-    
+
 }

@@ -4,6 +4,7 @@ using CQRSPerson.Domain.Dtos;
 using CQRSPerson.Domain.Responses;
 using CQRSPerson.TestData;
 using FluentAssertions;
+using Microsoft.EntityFrameworkCore;
 using NUnit.Framework;
 using System.Collections.Generic;
 using System.Net;
@@ -12,18 +13,16 @@ using System.Threading.Tasks;
 
 namespace CQRSPerson.API.Tests.Persons.GetPersons.Integration
 {
-    [TestFixture,Category("Integration")]
+    [TestFixture, Category("Integration")]
     public class GetPersonsHandlerTests : IntegrationTestBase
     {
-        private GetPersonsHandler _getPersonsHandler;
-
         [Test]
         public async Task CanGetAllPersons()
         {
             var query = new GetPersonsQuery();
-            _getPersonsHandler = new GetPersonsHandler(PersonQueryRepository, Mapper, GetPersonsHandlerLogger);
+            var persons = await DBContext.Person.ToListAsync();
 
-            var response = await _getPersonsHandler.Handle(query, new CancellationToken());
+            var response = await GetPersonsHandler.Handle(query, new CancellationToken());
 
             response.Should().NotBeNull();
             response.Should().BeOfType<StandardContentResponse<IEnumerable<PersonDto>>>();
@@ -31,6 +30,7 @@ namespace CQRSPerson.API.Tests.Persons.GetPersons.Integration
             response.Errors.Should().BeNullOrEmpty();
             response.InformationalMessage.Should().Be(InformationalMessages.GetAllPersonsSuccessMessage);
             response.StatusCode.Should().Be(HttpStatusCode.OK);
+            response.Content.Should().BeEquivalentTo(persons);
         }
 
     }

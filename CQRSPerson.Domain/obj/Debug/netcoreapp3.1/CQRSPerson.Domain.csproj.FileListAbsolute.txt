@@ -6,4 +6,3 @@ C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Domain\obj\Debug\netcoreapp3.1
 C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Domain\obj\Debug\netcoreapp3.1\CQRSPerson.Domain.csproj.CoreCompileInputs.cache
 C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Domain\obj\Debug\netcoreapp3.1\CQRSPerson.Domain.dll
 C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Domain\obj\Debug\netcoreapp3.1\CQRSPerson.Domain.pdb
-C:\Users\alexa\source\repos\CQRSPerson\CQRSPerson.Domain\obj\Debug\netcoreapp3.1\CQRSPerson.Domain.csprojAssemblyReference.cache

@@ -88,24 +88,24 @@ namespace CQRSPerson.API.Tests.Persons.GetPersons
 
         private void SetupVariables()
         {
-            _validPersonList = new List<Domain.Entities.Person> { new Domain.Entities.Person() 
-                { 
+            _validPersonList = new List<Domain.Entities.Person> { new Domain.Entities.Person()
+                {
                 PersonId = 1,
                 Age =22,
-                FirstName = "FirstName",
-                LastName = "LastName",
-                Interests = "Interests",
-                Image = "ImageUrl",
-                } 
+                FirstName = CommonMockData.GetRandomAlphabeticString(50),
+                LastName = CommonMockData.GetRandomAlphabeticString(50),
+                Interests = CommonMockData.GetRandomAlphabeticString(50),
+                Image = CommonMockData.GetRandomAlphabeticString(50),
+                }
             };
             _validPersonDtoList = new List<PersonDto> { new PersonDto() {
                 PersonId = 1,
                 Age = 22,
-                FirstName = "FirstName",
-                LastName = "LastName",
-                Interests = "Interests",
-                Image = "ImageUrl",
-                }  
+                FirstName = CommonMockData.GetRandomAlphabeticString(50),
+                LastName = CommonMockData.GetRandomAlphabeticString(50),
+                Interests = CommonMockData.GetRandomAlphabeticString(50),
+                Image = CommonMockData.GetRandomAlphabeticString(50),
+                }
             };
             _emptyPersonList = new List<Domain.Entities.Person> { };
             _logger = SetupLoggerMock<GetPersonsHandler>();

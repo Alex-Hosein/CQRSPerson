@@ -15,13 +15,13 @@ using System.Threading.Tasks;
 
 namespace CQRSPerson.API.Person.GetPersons
 {
-    public class GetPersonsHandler : BaseHandler<IEnumerable<PersonDto>,GetPersonsHandler>,IRequestHandler<GetPersonsQuery,StandardContentResponse<IEnumerable<PersonDto>>>
+    public class GetPersonsHandler : BaseHandler<IEnumerable<PersonDto>, GetPersonsHandler>, IRequestHandler<GetPersonsQuery, StandardContentResponse<IEnumerable<PersonDto>>>
     {
         private readonly IPersonQueryRepository _personQueryRepository;
         private readonly IMapper _mapper;
         private readonly IApplicationLogger<GetPersonsHandler> _logger;
 
-        public GetPersonsHandler(IPersonQueryRepository personQueryRepository,IMapper mapper, IApplicationLogger<GetPersonsHandler> logger)
+        public GetPersonsHandler(IPersonQueryRepository personQueryRepository, IMapper mapper, IApplicationLogger<GetPersonsHandler> logger)
         {
             _personQueryRepository = personQueryRepository;
             _mapper = mapper;
@@ -40,7 +40,7 @@ namespace CQRSPerson.API.Person.GetPersons
             {
                 var persons = await _personQueryRepository.GetAllAsync();
 
-                if(persons?.Count() > 0)
+                if (persons?.Count() > 0)
                 {
                     response.Content = _mapper.Map<List<PersonDto>>(persons);
                     response.InformationalMessage = InformationalMessages.GetAllPersonsSuccessMessage;
@@ -50,7 +50,7 @@ namespace CQRSPerson.API.Person.GetPersons
                     response.InformationalMessage = InformationalMessages.GetAllPersonsNoResults;
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 response = HandleInternalServerError(
                     ex, _logger, InformationalMessages.GetAllPersonException, ErrorCodes.GetAllPersonsErrorCode, Contexts.GetAllPersons);

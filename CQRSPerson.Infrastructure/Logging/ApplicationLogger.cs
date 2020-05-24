@@ -16,7 +16,7 @@ namespace CQRSPerson.Infrastructure.Logging
         {
             applicationLogger.LogError(exception, message, args);
         }
-        
+
         public void LogError(string message)
         {
             applicationLogger.LogError(message);

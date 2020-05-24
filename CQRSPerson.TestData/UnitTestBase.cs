@@ -18,7 +18,7 @@ namespace CQRSPerson.TestData
             var loggerMock = new Mock<IApplicationLogger<T>>();
             loggerMock.Setup(x => x.LogInformation(It.IsAny<string>(), It.IsAny<object[]>())).Verifiable();
             loggerMock.Setup(x => x.LogError(It.IsAny<string>())).Verifiable();
-            loggerMock.Setup(x => x.LogError(It.IsAny<Exception>(),It.IsAny<string>(), It.IsAny<object[]>())).Verifiable();
+            loggerMock.Setup(x => x.LogError(It.IsAny<Exception>(), It.IsAny<string>(), It.IsAny<object[]>())).Verifiable();
             return loggerMock;
         }
     }
